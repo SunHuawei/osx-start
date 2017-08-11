@@ -5,6 +5,8 @@ osascript &>/dev/null <<EOF
     tell application "System Events" to tell process "iTerm" to keystroke "t" using command down
     tell application "System Events" to tell process "iTerm" to keystroke "cd $PWD"
     tell application "System Events" to tell process "iTerm" to key code 52
-    tell application "System Events" to tell process "iTerm" to keystroke "npx $*"
+    tell application "System Events" to tell process "iTerm" to keystroke "PATH=$PATH:$PWD/node_modules/.bin/"
+    tell application "System Events" to tell process "iTerm" to key code 52
+    tell application "System Events" to tell process "iTerm" to keystroke "$*"
     tell application "System Events" to tell process "iTerm" to key code 52
 EOF

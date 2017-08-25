@@ -1,0 +1,22 @@
+{
+  "name": "osx-start",
+  "version": "0.0.1",
+  "description": "Mimic windows command 'start'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunHuawei/osx-start.git"
+  },
+  "bin": {
+    "start": "./start"
+  },
+  "author": "SunHuawei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SunHuawei/osx-start/issues"
+  },
+  "homepage": "https://github.com/SunHuawei/osx-start#readme"
+}
